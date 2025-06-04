@@ -39,7 +39,7 @@ Transaction 1: Alice sends 30 to Bob
 - New UTXOs created: Bob gets 30.0, Alice gets 120.0 change
 - Result: Alice: 120.0, Bob: 130.0
 
-Transaction 2: Bob sends 40 to Charlie
+Transaction 2: Bob sends 40 to Carol
 - Bob's available UTXOs are spent to cover 40.0
 - New UTXOs: Charlie gets 40.0, Bob gets remaining change
 - Result: Bob balance decreases, Charlie: 40.0
@@ -48,7 +48,7 @@ Transaction 3: Alice tries to send 200 (fails)
 - Validation catches insufficient funds
 - No UTXOs are modified
 
-Transaction 4: Charlie sends 15 to Alice
+Transaction 4: Carol sends 15 to Alice
 - Charlie's UTXO is partially spent
 - Alice receives 15.0, Charlie gets 25.0 change
 
