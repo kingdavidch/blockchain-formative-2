@@ -6,10 +6,8 @@
 #include "blockchain.h"
 
 // Simple SHA-256 implementation (for demonstration purposes)
-// In a real implementation, you would use a proper cryptographic library
 void sha256(const char* input, char* output) {
     // This is a simplified hash function for demonstration
-    // In reality, you should use a proper SHA-256 implementation
     sprintf(output, "%064x", (unsigned int)time(NULL) + rand());
 }
 
