@@ -133,8 +133,8 @@ int main() {
     srand(time(NULL));
 
     // Create initial UTXOs for two users
-    create_utxo("Alice", 100.0);
-    create_utxo("Bob", 50.0);
+    create_utxo("King", 100.0);
+    create_utxo("Jack", 50.0);
 
     printf("Initial UTXO state:\n");
     print_available_utxos();
@@ -142,12 +142,12 @@ int main() {
     // Simulate some transactions
     printf("\nSimulating transactions...\n");
     
-    // Alice sends 30 to Bob
-    create_transaction("Alice", "Bob", 30.0);
+    // King sends 30 to Jack
+    create_transaction("King", "Jack", 30.0);
     print_available_utxos();
 
-    // Bob sends 20 back to Alice
-    create_transaction("Bob", "Alice", 20.0);
+    // Jack sends 20 back to King
+    create_transaction("Jack", "King", 20.0);
     print_available_utxos();
 
     return 0;

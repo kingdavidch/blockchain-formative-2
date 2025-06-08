@@ -11,13 +11,13 @@ How it works:
    - Amount
    - Spent status
 
-2. The simulation includes two users (Alice and Bob) with initial balances:
-   - Alice: 100.0 units
-   - Bob: 50.0 units
+2. The simulation includes two users (King and Jack) with initial balances:
+   - King: 100.0 units
+   - Jack: 50.0 units
 
 3. The program demonstrates transactions between these users:
-   - Alice sends 30.0 units to Bob
-   - Bob sends 20.0 units back to Alice
+   - King sends 30.0 units to Jack
+   - Jack sends 20.0 units back to King
 
 4. For each transaction, the program:
    - Selects appropriate UTXOs to cover the transaction amount
@@ -28,10 +28,10 @@ How it works:
 Sample Input/Output:
 ------------------
 When you run the program, you'll see:
-1. Initial UTXO state showing Alice and Bob's balances
-2. Transaction details for Alice sending to Bob
+1. Initial UTXO state showing King and Jack's balances
+2. Transaction details for King sending to Jack
 3. Updated UTXO state after the first transaction
-4. Transaction details for Bob sending to Alice
+4. Transaction details for Jack sending to King
 5. Final UTXO state showing remaining balances
 
 To compile and run:
