@@ -44,4 +44,4 @@ The program will demonstrate mining with different difficulty levels and show:
 - The nonce value found
 - Impact of difficulty on mining time
 
-Note: This is a simplified implementation for educational purposes. The hash function is not cryptographically secure, and the difficulty adjustment is basic. In a real blockchain, you would use proper cryptographic libraries and more sophisticated difficulty adjustment algorithms.
+Note: This is a simplified implementation for educational purposes. The hash function is not cryptographically secure, and the difficulty adjustment is basic. In a real blockchain, you would use proper cryptographic libraries and more sophisticated difficulty adjustment algorithms. 
